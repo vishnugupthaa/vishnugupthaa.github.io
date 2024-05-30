@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Vishnugupthaa</title>
+
+    <!--
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <!--
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!--
+    - #MAIN
+  -->
+
+    <main>
+
+        <!--
+      - #SIDEBAR
+    -->
+
+        <aside class="sidebar" data-sidebar>
+
+            <div class="sidebar-info">
+
+                <figure class="avatar-box">
+                    <img src="./assets/images/my-avatar.jpg" alt="Vishnugupthaa Ramidi" width="80">
+                </figure>
+
+                <div class="info-content">
+                    <h1 class="name" title="Vishnugupthaa Ramidi">Vishnugupthaa Ramidi</h1>
+
+                    <p class="title">Developer</p>
+                </div>
+
+                <button class="info_more-btn" data-sidebar-btn>
+                    <span>Show Contacts</span>
+
+                    <ion-icon name="chevron-down"></ion-icon>
+                </button>
+
+            </div>
+
+            <div class="sidebar-info_more">
+
+                <div class="separator"></div>
+
+                <ul class="social-list">
+                    <li class="social-item">
+                        <a href="mailto:ramidivishnugupthaa@gmail.com" class="social-link">
+                            <ion-icon name="mail-outline" aria-label="Mail"></ion-icon>
+                        </a>
+                    </li>
+
+                    <li class="social-item">
+                        <a href="tel:+19296138236" class="social-link">
+                            <ion-icon name="call-outline" aria-label="Phone"></ion-icon>
+                        </a>
+                    </li>
+
+                    <li class="social-item">
+                        <a href="https://www.linkedin.com/in/vishnugupthaa/" target="_blank" class="social-link">
+                            <ion-icon name="logo-linkedin" aria-label="LinkedIn"></ion-icon>
+                        </a>
+                    </li>
+
+                    <li class="social-item">
+                        <a href="https://github.com/vishnugupthaa" target="_blank" class="social-link">
+                            <ion-icon name="logo-github" aria-label="GitHub"></ion-icon>
+                        </a>
+                    </li>
+                </ul>
+
+                <div class="separator"></div>
+
+                <ul class="contacts-list"></ul>
+
+            </div>
+
+
+        </aside>
+
+        <!--
+      - #main-content
+    -->
+
+        <div class="main-content">
+
+            <!--
+        - #NAVBAR
+      -->
+
+            <nav class="navbar">
+
+                <ul class="navbar-list">
+
+                    <li class="navbar-item">
+                        <button class="navbar-link  active" data-nav-link>Home</button>
+                    </li>
+
+                    <li class="navbar-item">
+                        <button class="navbar-link" data-nav-link>Resume</button>
+                    </li>
+
+                    <li class="navbar-item">
+                        <button class="navbar-link" data-nav-link>Projects</button>
+                    </li>
+
+                    <li class="navbar-item">
+                        <button class="navbar-link" data-nav-link>Contact</button>
+                    </li>
+
+                </ul>
+
+            </nav>
+
+
+
+
+
+            <!--
+        - #HOME
+      -->
+
+            <article class="about  active" data-page="home">
+
+                <header>
+                    <h2 class="h2 article-title">About me</h2>
+                </header>
+
+
+                <section class="clients">
+                    <h3 class="h3 clients-title">Skill-Set</h3>
+                    <div class="skills-marquee">
+                        <div class="marquee-content">
+                            <i class="fab fa-java"></i>
+                            <i class="fab fa-python"></i>
+                            <i class="fas fa-c"></i>
+                            <i class="fab fa-bootstrap"></i>
+                            <i class="fab fa-angular"></i>
+                            <i class="fas fa-database"></i>
+                            <i class="fas fa-box"></i>
+                            <i class="fas fa-leaf"></i>
+                            <i class="fas fa-bolt"></i>
+                            <i class="fas fa-server"></i>
+                            <i class="fab fa-html5"></i>
+                            <i class="fab fa-css3-alt"></i>
+                            <i class="fab fa-js"></i>
+                            <i class="fab fa-bootstrap"></i>
+                            <i class="fa-brands fa-github"></i>
+                            <i class="fa-brands fa-wordpress"></i>
+                            <i class="fa-brands fa-slack"></i>
+                            <i class="fa-brands fa-dropbox"></i>
+                            <i class="fa-solid fa-globe"></i>
+                            <i class="fa-solid fa-database"></i>
+                            <i class="fa-solid fa-file-word"></i>
+                            <i class="fab fa-java"></i>
+                            <i class="fab fa-python"></i>
+                            <i class="fas fa-c"></i>
+                            <i class="fab fa-bootstrap"></i>
+                            <i class="fab fa-angular"></i>
+                        </div>
+                    </div>
+                </section>
+
+
+
+                <div class="separator"></div>
+
+                <section class="about-text">
+                    <h3 class="h3 clients-title">About Me</h3>
+                    <p>
+                        I am a dedicated and highly motivated <strong class="neon">Computer Science graduate</strong>
+                        with a <strong class="neon">Master's degree</strong> from
+                        <strong class="neon">California State University, Dominguez Hills (CSUDH)</strong>. Throughout
+                        my academic journey, I have
+                        developed a strong foundation in computer science principles, including <strong
+                            class="neon">algorithms</strong>, <strong class="neon">data
+                            structures</strong>, and <strong class="neon">software engineering</strong>. My coursework
+                        and projects have honed my technical skills
+                        and provided me with a deep understanding of modern software development practices. I have
+                        consistently demonstrated a commitment to excellence and a passion for technology, which drives
+                        me to stay updated with the latest industry trends and advancements.
+                    </p>
+
+                    <p>
+                        Before pursuing my master's degree, I gained valuable industry experience working as an
+                        <strong class="neon">Associate Developer</strong> at <strong class="neon">Tata Consultancy
+                            Services (TCS)</strong>. In this role, I specialized in <strong class="neon">Scala
+                            development</strong>, contributing to a variety of projects that required innovative
+                        problem-solving and
+                        collaborative teamwork. My responsibilities included designing and implementing scalable
+                        solutions, debugging complex issues, and ensuring high-quality code delivery. This experience
+                        not only strengthened my technical abilities but also enhanced my <strong
+                            class="neon">communication</strong> and <strong class="neon">project
+                            management skills</strong>, as I often collaborated with cross-functional teams to meet
+                        project deadlines
+                        and exceed client expectations.
+                    </p>
+
+                    <p>
+                        With a unique blend of academic excellence and practical expertise, I am eager to bring my
+                        skills to a forward-thinking organization. I am passionate about continuous learning and am keen
+                        to take on challenging roles that allow me to contribute effectively to organizational goals
+                        while growing as a professional. I am particularly interested in opportunities that involve
+                        <strong class="neon">cutting-edge technologies</strong> and <strong class="neon">innovative
+                            projects</strong>, where I can leverage my background in
+                        software development to drive success and deliver high-quality solutions. My goal is to be an
+                        integral part of a dynamic team, where I can make meaningful contributions and further my career
+                        in the tech industry.
+                    </p>
+                </section>
+
+                <!--
+          - testimonials modal
+        -->
+
+                <div class="modal-container" data-modal-container>
+
+                    <div class="overlay" data-overlay></div>
+
+                    <section class="testimonials-modal">
+
+                        <button class="modal-close-btn" data-modal-close-btn>
+                            <ion-icon name="close-outline"></ion-icon>
+                        </button>
+
+
+
+                        <div class="modal-content">
+
+                            <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+                            <time datetime="2021-06-14">14 June, 2021</time>
+
+                            <div data-modal-text>
+                                <p>
+                                    Richard was hired to create a corporate identity. We were very pleased with the work
+                                    done. She has a
+                                    lot of experience
+                                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet,
+                                    ullamcous cididt
+                                    consectetur adipiscing
+                                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                                </p>
+                            </div>
+
+                        </div>
+
+                    </section>
+
+                </div>
+
+            </article>
+
+            <!--
+        - #RESUME
+      -->
+
+            <article class="resume" data-page="resume">
+
+                <header>
+                    <h2 class="h2 article-title">Resume</h2>
+                </header>
+
+                <section class="timeline">
+
+                    <div class="title-wrapper">
+                        <div class="icon-box">
+                            <ion-icon name="book-outline"></ion-icon>
+                        </div>
+
+                        <h3 class="h3">Education</h3>
+                    </div>
+
+                    <ol class="timeline-list">
+
+                        <li class="timeline-item">
+
+                            <h4 class="h4 timeline-item-title">California State University Dominguez Hills</h4>
+
+                            <span>2022 — 2024</span>
+
+                            <p class="timeline-text">
+                                <strong>Master of Science in Computer Science</strong><br><br>
+                                <strong>Relevant Coursework:</strong>
+                            <ul>
+                                <li><strong>Advanced Algorithms</strong></li>
+                                <li><strong>Data Structures</strong></li>
+                                <li><strong>Machine Learning</strong></li>
+                                <li><strong>Artificial Intelligence</strong></li>
+                                <li><strong>Database Systems</strong></li>
+                                <li><strong>Software Engineering</strong></li>
+                            </ul><br>
+                            <strong>Projects:</strong>
+                            <ul>
+                                <li><strong>Machine Learning Model for Predicting Student Performance:</strong>
+                                    Developed a predictive model using Python and scikit-learn to forecast student
+                                    grades based on various factors, improving prediction accuracy by 20%.</li>
+                                <li><strong>Web-Based Application for Campus Event Management:</strong> Built a
+                                    full-stack web application using React and Node.js to manage and promote campus
+                                    events, leading to a 30% increase in student participation.</li>
+                            </ul><br>
+                            <strong>Achievements:</strong>
+                            <ul>
+                                <li>Graduated with a GPA of <strong>3.63</strong>.</li>
+                            </ul>
+                            </p>
+
+                        </li>
+
+                        <li class="timeline-item">
+
+                            <h4 class="h4 timeline-item-title">Keshav Memorial Institute of Technology</h4>
+
+                            <span>2017 — 2021</span>
+
+                            <p class="timeline-text">
+                                <strong>Bachelor of Technology in Computer Science and Engineering</strong><br><br>
+                                <strong>Relevant Coursework:</strong>
+                            <ul>
+                                <li><strong>Operating Systems</strong></li>
+                                <li><strong>Computer Networks</strong></li>
+                                <li><strong>Database Management Systems</strong></li>
+                                <li><strong>Software Engineering</strong></li>
+                                <li><strong>Data Structures</strong></li>
+                            </ul><br>
+                            <strong>Projects:</strong>
+                            <ul>
+                                <li><strong>Library Management System:</strong> Developed a system using Java and MySQL
+                                    to automate library operations, reducing manual errors and improving efficiency.
+                                </li>
+                            </ul><br>
+                            <strong>Achievements:</strong>
+                            <ul>
+                                <li>Graduated with a GPA of <strong>7.5</strong>.</li>
+                                <li>Member of the college coding club and participated in various coding competitions.
+                                </li>
+                            </ul>
+                            </p>
+
+                        </li>
+
+                    </ol>
+
+                </section>
+
+
+
+
+                <section class="timeline">
+
+                    <div class="title-wrapper">
+                        <div class="icon-box">
+                            <ion-icon name="briefcase-outline"></ion-icon>
+                        </div>
+                        <h3 class="h3">Experience</h3>
+                    </div>
+
+                    <ol class="timeline-list">
+
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Associate Developer</h4>
+                            <span>June 2020 — August 2021</span>
+                            <p class="timeline-text">
+                                <strong>Tata Consultancy Services (TCS)</strong>
+                                <br><br>
+                                <strong>Role and Responsibilities:</strong>
+                            <ul>
+                                <li>Developed and maintained applications using <strong>Scala</strong>, ensuring high
+                                    performance and responsiveness.</li>
+                                <li>Collaborated with cross-functional teams to define, design, and ship new features.
+                                </li>
+                                <li>Troubleshot and debugged complex issues in a timely manner.</li>
+                                <li>Participated in code reviews to maintain code quality and shared best practices
+                                    within the team.</li>
+                                <li>Worked in an <strong>Agile</strong> environment, contributing to sprint planning,
+                                    daily stand-ups, and retrospective meetings.</li>
+                            </ul><br>
+                            <strong>Key Projects:</strong>
+                            <ul>
+                                <li><strong>E-Commerce Platform Enhancement:</strong> Enhanced an existing e-commerce
+                                    platform by adding new features and optimizing performance, resulting in a
+                                    <strong>15%</strong> increase in user engagement.
+                                </li>
+                                <li><strong>Customer Data Analysis Tool:</strong> Developed a tool using
+                                    <strong>Scala</strong> and <strong>Apache Spark</strong> for analyzing customer
+                                    data, which helped in identifying trends and improving customer satisfaction by
+                                    <strong>10%</strong>.
+                                </li>
+                            </ul><br>
+                            <strong>Achievements:</strong>
+                            <ul>
+                                <li>Improved application performance by <strong>25%</strong> through optimized code and
+                                    efficient algorithms.</li>
+                                <li>Received the “<strong>Star Performer</strong>” award for outstanding contributions
+                                    to the team.</li>
+                            </ul>
+                            </p>
+                        </li>
+
+                    </ol>
+
+                </section>
+
+                <!-- Download CV Button -->
+                <div class="download-cv">
+                    <a href="assets/CV/resume.pdf" target="_blank" download="vishnugupthaa_CV.pdf"
+                        class="btn btn-primary neon">Download CV</a>
+                </div>
+            </article>
+
+
+
+
+
+            <!--
+        - #PROJECTS
+      -->
+
+            <article class="projects" data-page="projects">
+
+                <header>
+                    <h2 class="h2 article-title">Projects</h2>
+                </header>
+
+                <section class="projects">
+
+
+
+                    <div class="filter-select-box">
+                        <button class="filter-select" data-select>
+                        </button>
+                    </div>
+
+                    <ul class="project-list">
+
+                        <li class="project-item  active">
+                            <a href="#">
+
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <i class="fa-brands fa-github"></i>
+
+                                    </div>
+
+                                    <img src="./assets/images/9.png" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">Portfolio</h3>
+
+                                <p class="project-category">HTML/CSS</p>
+
+                            </a>
+                        </li>
+
+                        <li class="project-item  active">
+                            <a href="https://github.com/vishnugupthaa/Cancer-Type-Prediction-and-Exploration-of-TCGA-Data.git"
+                                target="_blank">
+
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <i class="fa-brands fa-github"></i>
+                                    </div>
+
+                                    <img src="./assets/images/1.png" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">Cancer Prediction</h3>
+
+                                <p class="project-category">AI/ML</p>
+
+                            </a>
+                        </li>
+                        <li class="project-item  active">
+                            <a href="https://github.com/vishnugupthaa/Library-Management-System.git" target="_blank">
+
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <i class="fa-brands fa-github"></i>
+                                    </div>
+
+                                    <img src="./assets/images/2.png" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">Library Management</h3>
+
+                                <p class="project-category">MVC</p>
+
+                            </a>
+                        </li>
+                        <li class="project-item  active">
+                            <a href="https://github.com/vishnugupthaa/CSC_521_SensorFlow.git" target="_blank">
+
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <i class="fa-brands fa-github"></i>
+                                    </div>
+
+                                    <img src="./assets/images/3.png" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">SensorFLow Model</h3>
+
+                                <p class="project-category">ML</p>
+
+                            </a>
+                        </li>
+                        <li class="project-item  active">
+                            <a href="https://github.com/vishnugupthaa/CSC_521_ASG_SOL.git" target="_blank">
+
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <i class="fa-brands fa-github"></i>
+                                    </div>
+
+                                    <img src="./assets/images/4.png" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">Parser-Scanner</h3>
+
+                                <p class="project-category">C Programming</p>
+
+                            </a>
+                        </li>
+                        <li class="project-item  active">
+                            <a href="https://github.com/vishnugupthaa/Angular-FSWD.git" target="_blank">
+
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <i class="fa-brands fa-github"></i>
+                                    </div>
+
+                                    <img src="./assets/images/5.png" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">Angular FSDW</h3>
+
+                                <p class="project-category">Angular JS</p>
+
+                            </a>
+                        </li>
+                        <li class="project-item  active">
+                            <a href="https://github.com/vishnugupthaa/Housing-Management-System.git" target="_blank">
+
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <i class="fa-brands fa-github"></i>
+                                    </div>
+
+                                    <img src="./assets/images/6.png" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">Housing Management System</h3>
+
+                                <p class="project-category">Java/CSS/JS</p>
+
+                            </a>
+                        </li>
+                        <li class="project-item  active">
+                            <a href="https://github.com/vishnugupthaa/BootStrap4-FSWD.git" target="_blank">
+
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <i class="fa-brands fa-github"></i>
+                                    </div>
+
+                                    <img src="./assets/images/7.png" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">Bootstrap FSDW</h3>
+
+                                <p class="project-category">BS4</p>
+
+                            </a>
+                        </li>
+                        <li class="project-item  active">
+                            <a href="https://github.com/vishnugupthaa/PaperlessOffice-SIH-KMIT.git" target="_blank">
+
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <i class="fa-brands fa-github"></i>
+                                    </div>
+
+                                    <img src="./assets/images/8.png" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">Paperless Office</h3>
+
+                                <p class="project-category">JSP</p>
+
+                            </a>
+                        </li>
+
+
+                    </ul>
+
+                </section>
+
+            </article>
+
+
+            <!--
+        - #CONTACT
+      -->
+
+            <article class="contact" data-page="contact">
+                <header>
+                    <h2 class="h2 article-title">Contact</h2>
+                </header>
+
+                <div class="contact-container">
+
+                    <section class="contact-form">
+                        <h3 class="h3 form-title">Contact Me &#128513;</h3>
+
+                        <section class="main nopad-b">
+                            <div class="row">
+                                <div id="text-main" class="col-5">
+
+                                    <h4 class="h4 form-title">Need to Get in touch with me or just want to send a
+                                        message just ping me. &#128521;</h4>
+
+                                    <ul class="social-disc">
+                                        <li><a href="mailto:ramidivishnugupthaa@gmail.com" target="_blank"
+                                                class="twitter"><i class="fas fa-envelope"></i>
+                                                ramidivishnugupthaa@gmail.com</a></li>
+                                        <li><a href="tel:+19296138236" target="_blank" class="facebook"><i
+                                                    class="fas fa-phone"></i> +1 (929) 613 - 8236</a></li>
+                                        <li><a href="https://www.linkedin.com/in/vishnugupthaa/" target="_blank"
+                                                class="linkedin"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+                                        <li><a href="https://github.com/vishnugupthaa" target="_blank"
+                                                class="instagram"><i class="fab fa-github"></i> Github</a></li>
+                                    </ul>
+
+                                </div>
+                            </div>
+
+                        </section>
+
+                    </section>
+                    <section class="mapbox" data-mapbox>
+                        <figure>
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d162181.8180241443!2d-118.45148780784355!3d33.80014150003566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2cae84099d759%3A0xa1003afac42a8faa!2sLong%20Beach%2C%20CA%2C%20USA!5e1!3m2!1sen!2sbd!4v1716881251972!5m2!1sen!2sbd"
+                                width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </figure>
+                    </section>
+                </div>
+            </article>
+
+
+        </div>
+
+    </main>
+
+
+
+
+
+
+    <!--
+    - custom js link
+  -->
+    <script src="./script.js"></script>
+
+    <!--
+    - ionicon link
+  -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
